@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: currency-exchange-service
+  config:
+    import: optional:config-server:http://localhost:8888/
+server:
+  port: 8000
+
+

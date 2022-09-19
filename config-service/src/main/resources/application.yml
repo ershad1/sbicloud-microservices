@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///D:/microservices/sbicloud-microservices/localconfig-repo
+server:
+  port: 8888
