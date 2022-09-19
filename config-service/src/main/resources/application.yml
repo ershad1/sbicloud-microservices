@@ -5,6 +5,6 @@ spring:
     config:
       server:
         git:
-          uri: file:///D:/microservices/sbicloud-microservices/localconfig-repo
+          uri: file:///D:/microservices/sbicloud-microservices
 server:
   port: 8888
